@@ -5,7 +5,7 @@ from .entity import EzMatrixEntity  # Import the new base class
 
 _LOGGER = logging.getLogger(__name__)
 
-SOURCE_OPTIONS = ["Input 1", "Input 2", "Input 3", "Input 4"]
+SOURCE_OPTIONS = ["IN1", "IN2", "IN3", "IN4"]
 EDID_OPTIONS = [str(i) for i in range(17)]
 
 async def async_setup_entry(hass, entry, async_add_entities):
